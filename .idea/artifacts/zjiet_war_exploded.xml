@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="zjiet:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/zjiet_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="zjiet" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/jstl-1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/servlet-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-lang-2.6.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-3.1.12-bin.jar" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="zjiet/web/Web2" />
+      <element id="javaee-facet-resources" facet="zjiet/web/Web" />
+    </root>
+  </artifact>
+</component>
